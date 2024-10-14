@@ -15,6 +15,7 @@ pages = 2
 rn = 100
 
 
+# TODO: rename output directory
 def get_tids(kw: str, end_page: int, rn: int = 100, start_page: int = 1,
              tidlistfilepath: str = '../output/tid_list.json',
              threadinfofilepath: str = '../output/ThreadInfos.json') -> list:
